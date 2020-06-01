@@ -16,3 +16,4 @@ jobs:
           name: test app
           command: |
             echo "Hello Tests"
+            echo "how are you
