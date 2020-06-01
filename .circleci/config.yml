@@ -7,6 +7,8 @@ workflows:
 
 jobs:
   my-test:
+    docker:
+      - image: circleci/python:2.7-stretch
     working_directory: ~/my-foundation
     steps:
       - checkout
