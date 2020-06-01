@@ -1,0 +1,16 @@
+version: 2
+workflows:
+  version: 2
+  test:
+    jobs:
+      - my-test
+
+jobs:
+  my-test:
+    working_directory: ~/my-foundation
+    steps:
+      - checkout
+      - run:
+          name: test app
+          command: |
+            echo "Hello Tests"
