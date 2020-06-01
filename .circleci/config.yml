@@ -15,5 +15,5 @@ jobs:
       - run:
           name: test app
           command: |
-            echo "Hello Tests"
-            echo "how are you"
+            echo "Hello Tests2"
+            echo "how are you2"
